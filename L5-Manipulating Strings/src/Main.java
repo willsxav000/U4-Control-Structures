@@ -4,25 +4,16 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Scanner console = new Scanner(System.in);
+        Scanner read = new Scanner(System.in);
+        System.out.println("Please enter a word: ");
+        String word = read.nextLine();
+        int count = 0;
 
-        int number;  // To hold number of terms
-
-        int firstTerm = 0,
-                secondTerm = 1,
-                thirdTerm;
-
-        System.out.print("Enter number of terms of series : ");
-        number = console.nextInt();
-
-        System.out.print(firstTerm + " " + secondTerm + " ");
-
-        for(int i = 3; i <= number; i++)
-        {
-            thirdTerm = firstTerm + secondTerm;
-            System.out.print(thirdTerm + " ");
-            firstTerm = secondTerm;
-            secondTerm = thirdTerm;
+        for(int i =0; i < word.length(); i++){
+            if(word.contains("code")){
+                count++;
+                word = word.substring(word.indexOf("code")+ 3);
+            }
         }
     }
 }
