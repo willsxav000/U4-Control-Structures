@@ -1,11 +1,9 @@
+import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
-        String word = "Programming";
 
-        for(int i = 0; i < word.length(); i+=2){
-            System.out.print(word.charAt(i));
+        for(int number = 1; number < 10; number++){
+            System.out.println(number);
         }
-
-        System.out.println();
     }
 }

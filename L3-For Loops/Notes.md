@@ -79,7 +79,7 @@ Counting - For Loop - Many programs need some kind of counting mechanism. You de
 
 1. Create a for loop that counts backwards from 10.
 2. Create a for loop that outputs every third number from 1 to 30.
-3. Create a for loop that assigns a random odd number from 1 to 20 to a variable.
+3. Create a for loop that creates 10 random odd numbers from 1 to 20.
 4. Create a for loop that calculates the average of 10 scores. (hint: when would you divide?)
 
 [sandbox]: ../L3-For%20Loops/src/Main.java
